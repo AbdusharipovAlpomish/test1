@@ -127,6 +127,12 @@ button {
   font-size: 14px;
   line-height: 21px;
   color: var(--background2);
+  cursor: pointer;
+}
+
+.main-header__btn:hover {
+  background: var(--background2);
+  color: var(--background1);
 }
 
 /* Hero main */
@@ -308,10 +314,17 @@ button {
 .best-furniture__btn {
   padding: 14px 32px;
   background: var(--background1);
+  border: 1px solid var(--background1);
   font-weight: var(--weight2);
   font-size: 14px;
   line-height: 21px;
   color: var(--color2);
+  cursor: pointer;
+}
+
+.best-furniture__btn:hover {
+  background: var(--background2);
+  color: var(--background1);
 }
 
 /* Services */
@@ -640,6 +653,7 @@ button {
   font-size: 14px;
   line-height: 21px;
   color: var(--color1);
+  cursor: pointer;
 }
 
 .material-img__parquet {
@@ -701,6 +715,7 @@ button {
   line-height: 21px;
   color: var(--color1);
   background: var(--background2);
+  cursor: pointer;
 }
 
 /* Leg */

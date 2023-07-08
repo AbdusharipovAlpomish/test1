@@ -64,6 +64,10 @@ button {
   background: transparent;
 }
 
+img {
+  width: 100%;
+}
+
 :root {
   --color1: #333333;
   --color2: #FFFFFF;
@@ -1525,5 +1529,3 @@ button {
   margin-bottom: 41px;
 }
 
-.loaction-sub__text:not(:last-child) {
-}

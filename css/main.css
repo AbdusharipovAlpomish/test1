@@ -1529,3 +1529,139 @@ img {
   margin-bottom: 41px;
 }
 
+/* Portofolios */
+.portofolios {
+  padding: 57px 0 50px 0;
+  text-align: center;
+}
+
+.portofolios-title {
+  font-weight: var(--weight4);
+  font-size: 56px;
+  line-height: 78px;
+  margin-bottom: 36px;
+}
+
+.portofolios-text {
+  max-width: 518px;
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0 auto;
+  margin-bottom: 57px;
+}
+
+/* Room */
+.room {
+  padding: 50px 0;
+}
+
+.room-text {
+  font-weight: var(--weight3);
+  font-size: 1em;
+  line-height: 24px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.room-text::before {
+  content: '';
+  max-width: 511px;
+  width: 100%;
+  height: 2px;
+  background: var(--color3);
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  left: 89px;
+}
+
+.room-minimalist__img {
+  max-width: 883px;
+}
+
+.room-minimalist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room-minimalist:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.room-minimalist__card-img {
+  width: 51px;
+}
+
+.room-minimalist__card, 
+.room-danaan__card {
+  width: 276px;
+  padding: 17px 52px 17px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background2);
+  box-shadow: 0 0 5px 1px var(--color4);
+  position: absolute;
+}
+
+.room-minimalist__card {
+  top: -100px;
+  left: -175px;
+}
+
+.room-danaan__card {
+  top: -110px;
+  left: 121px;
+}
+
+.room-minimalist__content {
+  position: relative;
+}
+
+.room-minimalist__name {
+  font-weight: var(--weight3);
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.room-minimalist__job {
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  color: var(--color4);
+}
+
+.room-minimalist__title {
+  font-weight: var(--weight3);
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color1);
+  margin-bottom: 20px;
+}
+
+.room-minimalist__text {
+  width: 223px;
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  color: var(--color4);
+  margin-bottom: 40px;
+}
+
+.room-minimalist__btn {
+  padding: 14px 32px;
+  font-weight: var(--weight2);
+  font-size: 14px;
+  line-height: 21px;
+  background: var(--background1);
+  border: 1.5px solid var(--background1);
+  color: var(--background2);
+  cursor: pointer;
+}
+
+.room-minimalist__btn:hover {
+  background: var(--background2);
+  color: var(--background1);
+}

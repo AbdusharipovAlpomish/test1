@@ -1594,7 +1594,7 @@ img {
   width: 51px;
 }
 
-.room-minimalist__card, 
+.room-minimalist__card,
 .room-danaan__card {
   width: 276px;
   padding: 17px 52px 17px 20px;
@@ -1664,4 +1664,88 @@ img {
 .room-minimalist__btn:hover {
   background: var(--background2);
   color: var(--background1);
+}
+
+/* Portofolios details */
+.portofolios-details {
+  padding: 57px 0 50px 0;
+  text-align: center;
+}
+
+.portofolios-details__title {
+  font-weight: var(--weight4);
+  font-size: 56px;
+  line-height: 78px;
+  margin-bottom: 40px;
+}
+
+.portofolios-details__text {
+  max-width: 518px;
+  width: 100%;
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+
+/* Project */
+.project {
+  padding: 50px 0 68px 0;
+}
+
+.project-blok {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.project-title {
+  font-weight: var(--weight3);
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 24px;
+}
+
+.project-text,
+.project-text__basic {
+  max-width: 584px;
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  color: var(--color4);
+}
+
+.project-text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.project-text:last-child {
+  margin-bottom: 80px;
+}
+
+.project-text__basic {
+  margin-bottom: 60px;
+}
+
+.project-span {
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  color: var(--color4);
+  display: inline-block;
+  margin-bottom: 81px;
+}
+
+.project-span:not(:last-child) {
+  margin-right: 80px;
+}
+
+.project-img__sub {
+  margin-bottom: 32px;
+}
+
+.project-img {
+  max-width: 584px;
 }

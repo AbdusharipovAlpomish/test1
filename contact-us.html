@@ -42,32 +42,40 @@
   <main>
     <section id="registration" class="registration">
       <div class="container registration-container">
-        <h2 class="registration-title">
-          Contact Us
-        </h2>
-        <p class="registration-text">
-          It is a long established fact that a reader will be distracted
-          by the readable content of a page when looking at its layout.
-        </p>
+        <div class="registration-content">
+          <h2 class="registration-title">
+            Contact Us
+          </h2>
+          <p class="registration-text">
+            It is a long established fact that a reader will be distracted
+            by the readable content of a page when looking at its layout.
+          </p>
+        </div>
         <div class="registration-blok">
           <form action="#">
             <div class="registration-input__blok">
               <div class="registration-box">
-                <label for="First Name">First Name</label>
-                <input type="name" placeholder="First Name" required>
+                <label class="registration-label" for="firstName">
+                  First Name
+                </label>
+                <input id="firstName" class="registration-input__name registration-input" type="name"
+                  placeholder="First Name" required>
               </div>
               <div class="registration-box">
-                <label for="First Name">First Name</label>
-                <input type="name" placeholder="First Name" required>
+                <label class="registration-label" for="lastName">
+                  First Name
+                </label>
+                <input id="lastName" class="registration-input__name registration-input" type="name"
+                  placeholder="First Name" required>
               </div>
             </div>
-            <div>
-              <label for="Email">Email</label>
-              <input type="email" placeholder="Email" required>
+            <div class="registration-email__blok">
+              <label class="registration-label" for="Email">Email</label>
+              <input class="registration-email registration-input" type="email" placeholder="Email" required>
             </div>
-            <div>
-              <label for="Phone Number">Phone Number</label>
-              <div class="registration-input__blok">
+            <div class="registration-input__blok-select">
+              <label class="registration-label" for="Phone Number">Phone Number</label>
+              <div>
                 <div>
                   <select name="#" id="registration-select">
                     <option value="us">us</option>
@@ -78,18 +86,20 @@
                   </select>
                 </div>
                 <div>
-                  <input type="number" placeholder="Phone Number" required>
+                  <input class="registration-number registration-input" type="tel" placeholder="Phone Number" required>
                 </div>
               </div>
             </div>
-            <div>
-              <label for="Message"></label>
-              <textarea name="#" id="registration-textarea" cols="30" rows="10" placeholder="Your Message"
-                required></textarea>
+            <div class="registration-textarea__blok">
+              <label class="registration-label" for="Message">Message</label>
+              <textarea class="registration-textarea registration-input" name="#" id="registration-textarea" cols="30"
+                rows="10" placeholder="Your Message" required></textarea>
             </div>
-            <button class="registration-btn">
-              Send Massage
-            </button>
+            <div class="registration-box__btn">
+              <button class="registration-btn">
+                Send Massage
+              </button>
+            </div>
           </form>
         </div>
       </div>
@@ -110,7 +120,9 @@
             <h3 class="loaction-email__title">
               Email
             </h3>
-            <a href="Email:dananz@gmail.com" class="loaction-link">dananz@gmail.com</a>
+            <a href="Email:dananz@gmail.com" class="loaction-link">
+              dananz@gmail.com
+            </a>
             <h3 class="loaction-phone">
               Phone
             </h3>

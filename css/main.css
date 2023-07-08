@@ -1323,3 +1323,207 @@ button {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+/* Registration */
+.registration {
+  padding: 57px 0 50px 0;
+}
+
+.registration-content {
+  text-align: center;
+  margin-bottom: 51px;
+}
+
+.registration-title {
+  font-weight: var(--weight4);
+  font-size: 56px;
+  line-height: 78px;
+  margin-bottom: 40px;
+}
+
+.registration-text {
+  max-width: 518px;
+  width: 100%;
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0 auto;
+}
+
+.registration-blok {
+  max-width: 840px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.registration-box:not(:last-child) {
+  margin-right: 14px;
+}
+
+.registration-input__blok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.registration-label {
+  font-weight: var(--weight2);
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color1);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.registration-input {
+  outline: none;
+  border: 1px solid var(--color4);
+  font-weight: var(--weight1);
+  font-size: 1em;
+  line-height: 25px;
+  color: var(--color4);
+  width: 100%;
+  padding: 18px 32px;
+}
+
+.registration-input__name {
+  min-width: 412px;
+  max-width: 413px;
+}
+
+.registration-number {
+  padding-left: 108px;
+}
+
+.registration-email__blok {
+  margin-bottom: 20px;
+}
+
+.registration-input__blok-select {
+  margin-bottom: 20px;
+}
+
+.registration-textarea__blok {
+  margin-bottom: 40px;
+}
+
+.registration-textarea {
+  resize: none;
+  outline: none;
+  font-weight: var(--weight1);
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--color4);
+  width: 100%;
+}
+
+.registration-box__btn {
+  text-align: center;
+}
+
+.registration-btn {
+  background: var(--background1);
+  padding: 14px 32px;
+  font-weight: var(--weight2);
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--background2);
+}
+
+/* Loaction */
+.loaction {
+  padding: 50px 0 60px 0;
+}
+
+.loaction-text {
+  font-weight: var(--weight2);
+  font-size: 1em;
+  line-height: 24px;
+  position: relative;
+}
+
+.loaction-text::before {
+  content: '';
+  max-width: 510px;
+  width: 100%;
+  height: 2px;
+  background: var(--color3);
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  left: 90px;
+}
+
+.loaction-blok {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loaction-title {
+  font-weight: var(--weight3);
+  font-size: 36px;
+  line-height: 61px;
+  color: var(--color1);
+  margin-bottom: 24px;
+}
+
+.loaction-info {
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  color: var(--color4);
+  margin-bottom: 39px;
+}
+
+.loaction-email__title {
+  font-weight: var(--weight3);
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color1);
+  margin-bottom: 10px;
+}
+
+.loaction-link {
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  color: #9C9C9C;
+}
+
+.loaction-link:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.loaction-phone {
+  font-weight: var(--weight3);
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color1);
+  margin-bottom: 10px;
+}
+
+.loaction-box {
+  max-width: 334px;
+  width: 100%;
+}
+
+.loaction-sub__title {
+  font-weight: var(--weight3);
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--color1);
+  margin-bottom: 34px;
+}
+
+.loaction-sub__text {
+  font-weight: var(--weight1);
+  font-size: 18px;
+  line-height: 29px;
+  color: var(--color4);
+  margin-bottom: 41px;
+}
+
+.loaction-sub__text:not(:last-child) {
+}
